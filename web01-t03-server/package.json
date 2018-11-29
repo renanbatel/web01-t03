@@ -1,0 +1,21 @@
+{
+  "name": "web01-t03-server",
+  "version": "0.0.1",
+  "main": "server.js",
+  "author": "Renan Batel <renanbatel@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./server.js",
+    "start:dev": "npx nodemon ./server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.12",
+    "sha256": "^0.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}

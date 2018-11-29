@@ -1,0 +1,52 @@
+{
+  "name": "repartin",
+  "version": "0.0.1",
+  "main": "app/source/index.jsx",
+  "license": "MIT",
+  "homepage": "https://renanbatel.github.io/web01-t02",
+  "scripts": {
+    "start": "webpack-dev-server --config app/config/webpack.dev.js --history-api-fallback",
+    "build": "npx webpack --config app/config/webpack.prod.js",
+    "predeploy": "npm run build",
+    "deploy": "npx gh-pages -d dist"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.4.0",
+    "@material-ui/icons": "^3.0.1",
+    "firebase": "^5.5.9",
+    "gh-pages": "^2.0.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-file-picker": "^0.0.5",
+    "react-firebaseui": "^3.1.2",
+    "react-router-dom": "^4.3.1",
+    "reset-css": "^4.0.1",
+    "sha256": "^0.2.0",
+    "smooth-scroll": "^14.2.1",
+    "typeface-roboto": "^0.0.54"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "autoprefixer": "^9.1.5",
+    "babel-loader": "^8.0.4",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "csso-loader": "^0.3.1",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.3",
+    "node-sass": "^4.9.3",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.9",
+    "webpack-merge": "^4.1.4"
+  }
+}

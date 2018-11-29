@@ -1,0 +1,48 @@
+{
+  "api": "http://localhost:4200",
+  "site": {
+    "name": "Renan Batel",
+    "admin": "renanbatel@gmail.com"
+  },
+  "header": {
+    "logo": "%image%"
+  },
+  "sections": [ {
+    "name": "Olá",
+    "id": "ola",
+    "data": {
+      "link": "https://res.cloudinary.com/danelu4xz/image/upload/v1541640686/College/t02/curriculum.pdf",
+      "photo": "https://res.cloudinary.com/danelu4xz/image/upload/v1541642207/College/t02/avatar.png",
+      "content": {
+        "title": "Lorem ipsum dolor sit amet",
+        "text": [
+          "Curabitur egestas tempus enim at hendrerit. Nulla facilisi. Donec vel lorem et ex suscipit scelerisque id at enim. Fusce maximus volutpat sem, ac malesuada mauris laoreet eu. Aenean ultricies ullamcorper congue.",
+          "Aenean tincidunt euismod est, id vehicula nisi. Curabitur nec iaculis neque. Integer dignissim cursus velit, et dictum arcu iaculis id. Morbi sagittis justo vel euismod iaculis. Nunc pellentesque libero nulla, at porttitor eros tincidunt at. Curabitur commodo lorem dui, ut scelerisque libero lacinia vel. Donec elit elit, placerat eget suscipit ut, lacinia ornare ligula."
+        ]
+      }
+    }
+  }, {
+    "name": "Sobre",
+    "id": "sobre",
+    "data": {}
+  }, {
+    "name": "Habilidades",
+    "id": "habilidades",
+    "data": {}
+  }, {
+    "name": "Blog",
+    "id": "blog",
+    "data": {}
+  }, {
+    "name": "Portfólio",
+    "id": "portfolio",
+    "data": {}
+  }, {
+    "name": "Contato",
+    "id": "contato",
+    "data": {}
+  } ],
+  "footer": {
+    "copy": "Renan Batel 2018"
+  }
+}
